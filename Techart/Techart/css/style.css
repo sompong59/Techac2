@@ -399,7 +399,7 @@ a:focus {
 }
 
 .service_section {
-  position: relative;
+  
 }
 
 .service_section .box {
@@ -419,6 +419,8 @@ a:focus {
   padding: 20px;
   border-radius: 5px;
 }
+/*ເພີ່ມເຕີມ*/
+
 
 .service_section .box .img-box {
   display: -webkit-box;
@@ -613,7 +615,8 @@ a:focus {
 }
 
 .team_section .team_container {
-  padding: 0 15px;
+  padding: 0 30px;
+  
 }
 
 .team_section .team_container .box {
@@ -640,7 +643,7 @@ a:focus {
 }
 
 .team_section .team_container .box .img-box img {
-  width: 120px;
+  width: 150px;
   border-radius: 100%;
   border: 5px solid #ffffff;
 }
@@ -656,18 +659,19 @@ a:focus {
 }
 
 .team_section .team_container .box .social_box {
-  padding: 10px 45px 20px 45px;
+  padding: 10px 100px 20px 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
           justify-content: space-between;
+         
 }
 
 .team_section .team_container .box .social_box a {
   color: #ffffff;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .team_section .team_container .box .social_box a:hover {
